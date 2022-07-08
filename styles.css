@@ -16,6 +16,10 @@ a {
     color: whitesmoke‚;
 }
 
+td {
+    padding-right: 50px;
+}
+
 .dark {
     text-align: center;
     color: whitesmoke;
@@ -50,17 +54,16 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding:20px 0;
+    padding: 20px 0;
     padding-left: 3%;
-    background-color:#282d32;
-  }
-  
+    background-color: #282d32;
+}
+
 footer .copyright {
-    text-align:center;
-    padding-top:20px;
+    text-align: center;
+    padding-top: 20px;
     color: whitesmoke;
-    opacity:0.8;
-    font-size:13px;
-    margin-bottom:0;
-  }
-  
+    opacity: 0.8;
+
+    margin-bottom: 0;
+}
