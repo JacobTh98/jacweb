@@ -11,6 +11,22 @@ h3 {
 }
 
 a {
+    color: rgb(21, 20, 20) !important;
+}
+
+i {
+    text-align: center;
+    transition: 0.4s;
+}
+
+i:hover {
+    color: #AEC6CF;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+
+a {
     padding: 10px;
     font-size: 18px;
     color: whitesmoke‚;
@@ -65,7 +81,8 @@ div {
 }
 
 footer {
-    position: absolute;
+    position: relative;
+    text-align: center;
     bottom: 0;
     width: 100%;
     padding: 20px 0;
