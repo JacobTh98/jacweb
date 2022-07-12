@@ -20,6 +20,18 @@ td {
     padding-right: 50px;
 }
 
+ol {
+    padding-left: 40px;
+}
+
+ul {
+    padding-left: 40px;
+}
+
+li {
+    padding-top: 10px;
+}
+
 .dark {
     text-align: center;
     color: whitesmoke;
@@ -34,7 +46,7 @@ body {
 }
 
 code {
-    font-family: monaco;
+    font-family: consolas;
     color: white;
     font-size: 18px;
 }
