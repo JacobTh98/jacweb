@@ -35,7 +35,49 @@
   </div>
 
   <h3>Befehle auf dem Haumea Server</h3>
-  <div>Mit den folgenden Befehlen kann eine Arbeitsumgebung angelegt werden.</div>
+  <div>Neue Arbeitsumgebung angelegen.</div>
+  <div>
+    <ol>
+        <li>Allgemeine<a href="terminal.html">Linux</a>Befehle.</li>
+        <li>Neue Umgebung anlegen:</li>
+        <ul>
+            <li> <code>python3 -m venv ~/envs/env</code> </li>
+        </ul>
+        <li>Umgebung aktivieren:</li>
+        <ul>
+            <li> <code>source ~/envs/env/bin/activate</code></li>
+        </ul>
+        <li><code>pip</code>-Packete über Proxy installieren:</li>
+        <ul>
+            <li> <code>pip install --proxy=http://proxy.uni-rostock.de:8080 "Packagepip "</code></li>
+        </ul>
+    </ol>
+  </div>
+  <div>Prozess starten und Überwachen.</div>
+  <div>
+    <ol>
+        <li>Linux<a href="linux_sh.html">.sh-Datei</a> anlegen.</li>
+        <li>Prozess Starten:</li>
+        <ul>
+            <li> <code>sbatch [NAME].sh</code> </li>
+        </ul>
+        <li>Prozess überprüfen:</li>
+        <ul>
+            <li> <code>squeue -u [BENUTZERNAME]</code></li>
+        </ul>
+        <li>Auf GPU einloggen:</li>
+        <ul>
+            <li> <code>ssh gpu1</code> (gpu2,...,gpuX)</li>
+            <li> <code>htop</code></li>
+        </ul>
+        <li>Aus GPU ausloggen:</li>
+        <ul>
+            <li>Str+D/Control+D</li>
+        </ul>
+    </ol>
+  </div>
+
+
   <div>
     <table>
         <tr>
