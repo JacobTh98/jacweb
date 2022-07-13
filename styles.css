@@ -11,16 +11,24 @@ h3 {
 }
 
 a {
+    transition: 0.4s;
     color: rgb(21, 20, 20) !important;
+    cursor: pointer;
+}
+
+a:hover {
+    color: whitesmoke !important;
+    transition: 0.2s;
+    cursor: pointer;
 }
 
 i {
     text-align: center;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 i:hover {
-    color: #AEC6CF;
+    color: whitesmoke;
     transition: 0.4s;
     cursor: pointer;
 }
@@ -70,6 +78,7 @@ code {
 div {
     margin: 1%;
 }
+
 
 .dark_sub {
     text-align: left;
