@@ -8,20 +8,20 @@ h1 {
 
 .nav_button {
     animation-duration: 1s;
-    animation-name: slidein;
-  }
-  
-  @keyframes slidein {
+    animation-name: slidin;
+}
+
+@keyframes slidin {
     from {
-      opacity: 0%;
-      color: whitesmoke
+        color: rgb(21, 20, 20);
+        /*margin-left: -30%;*/
     }
-  
+
     to {
-      opacity: 100%;
-      color: rgb(21, 20, 20)
+        /*margin-left: 0%;*/
+        color: whitesmoke;
     }
-  }
+}
 
 
 h3 {
@@ -29,8 +29,8 @@ h3 {
 }
 
 a {
-    transition: 0.4s;
-    color: rgb(21, 20, 20) !important;
+    transition: 1s;
+    color: rgb(21, 20, 20);
     cursor: pointer;
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
 code {
-    font-family: Consolas,monaco,monospace;
+    font-family: Consolas, monaco, monospace;
     color: white;
     font-size: 18px;
 }
@@ -131,18 +131,4 @@ footer .copyright {
     opacity: 0.8;
 
     margin-bottom: 0;
-}
-
-.l_d_mode {
-    position: absolute;
-    top: 30px;
-    left: 20px;
-    color: blue;
-}
-
-.d_l_mode {
-    position: absolute;
-    top: 30px;
-    left: 20px;
-    color: red;
 }
