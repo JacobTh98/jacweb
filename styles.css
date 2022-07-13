@@ -129,6 +129,9 @@ footer .copyright {
     padding-top: 20px;
     color: whitesmoke;
     opacity: 0.8;
-
     margin-bottom: 0;
+}
+
+.tab {
+    padding-left: 50px;
 }
