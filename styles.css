@@ -132,3 +132,17 @@ footer .copyright {
 
     margin-bottom: 0;
 }
+
+.l_d_mode {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: blue;
+}
+
+.d_l_mode {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: red;
+}
